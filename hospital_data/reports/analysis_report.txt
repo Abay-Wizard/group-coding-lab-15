@@ -1,0 +1,276 @@
+==============================================
+ANALYSIS REPORT - Heart Rate Monitor
+Generated: 2026-01-29 03:09:17
+Log File: hospital_data/active_logs/heart_rate.log
+==============================================
+
+Total Entries: 248
+
+--- Device Statistics ---
+
+Device: HeartRate_Monitor_B
+  Total Count: 124
+  First Entry: 2026-01-29 03:07:14
+  Last Entry: 2026-01-29 03:09:17
+
+Device: HeartRate_Monitor_A
+  Total Count: 124
+  First Entry: 2026-01-29 03:07:14
+  Last Entry: 2026-01-29 03:09:17
+
+--- Value Statistics ---
+
+Device: HeartRate_Monitor_A
+  Min Value: 60.00
+  Max Value: 100.00
+  Avg Value: 79.87
+
+Device: HeartRate_Monitor_B
+  Min Value: 60.00
+  Max Value: 100.00
+  Avg Value: 80.36
+
+==============================================
+
+==============================================
+ANALYSIS REPORT - Temperature Sensor
+Generated: 2026-01-29 03:09:41
+Log File: hospital_data/active_logs/temperature.log
+==============================================
+
+Total Entries: 296
+
+--- Device Statistics ---
+
+Device: Temp_Recorder_B
+  Total Count: 148
+  First Entry: 2026-01-29 03:07:14
+  Last Entry: 2026-01-29 03:09:41
+
+Device: Temp_Recorder_A
+  Total Count: 148
+  First Entry: 2026-01-29 03:07:14
+  Last Entry: 2026-01-29 03:09:41
+
+--- Value Statistics ---
+
+Device: Temp_Recorder_A
+  Min Value: 36.00
+  Max Value: 39.50
+  Avg Value: 37.91
+
+Device: Temp_Recorder_B
+  Min Value: 36.10
+  Max Value: 39.50
+  Avg Value: 37.69
+
+==============================================
+
+==============================================
+ANALYSIS REPORT - Water Usage Meter
+Generated: 2026-01-29 03:09:47
+Log File: hospital_data/active_logs/water_usage.log
+==============================================
+
+Total Entries: 153
+
+--- Device Statistics ---
+
+Device: Water_Consumption_Meter
+  Total Count: 153
+  First Entry: 2026-01-29 03:07:14
+  Last Entry: 2026-01-29 03:09:46
+
+--- Value Statistics ---
+
+Device: Water_Consumption_Meter
+  Min Value: 1.00
+  Max Value: 10.00
+  Avg Value: 5.53
+
+==============================================
+
+==============================================
+ANALYSIS REPORT - Heart Rate Monitor
+Generated: 2026-01-29 03:30:51
+Log File: hospital_data/active_logs/heart_rate.log
+==============================================
+
+Total Entries: 2834
+
+--- Device Statistics ---
+
+Device: HeartRate_Monitor_B
+  Total Count: 1417
+  First Entry: 2026-01-29 03:07:14
+  Last Entry: 2026-01-29 03:30:51
+
+Device: HeartRate_Monitor_A
+  Total Count: 1417
+  First Entry: 2026-01-29 03:07:14
+  Last Entry: 2026-01-29 03:30:51
+
+--- Value Statistics ---
+
+Device: HeartRate_Monitor_A
+  Min Value: 60.00
+  Max Value: 100.00
+  Avg Value: 79.73
+
+Device: HeartRate_Monitor_B
+  Min Value: 60.00
+  Max Value: 100.00
+  Avg Value: 79.70
+
+==============================================
+
+==============================================
+ANALYSIS REPORT - Temperature Sensor
+Generated: 2026-01-29 03:30:57
+Log File: hospital_data/active_logs/temperature.log
+==============================================
+
+Total Entries: 2844
+
+--- Device Statistics ---
+
+Device: Temp_Recorder_B
+  Total Count: 1422
+  First Entry: 2026-01-29 03:07:14
+  Last Entry: 2026-01-29 03:30:56
+
+Device: Temp_Recorder_A
+  Total Count: 1422
+  First Entry: 2026-01-29 03:07:14
+  Last Entry: 2026-01-29 03:30:56
+
+--- Value Statistics ---
+
+Device: Temp_Recorder_A
+  Min Value: 36.00
+  Max Value: 39.50
+  Avg Value: 37.76
+
+Device: Temp_Recorder_B
+  Min Value: 36.00
+  Max Value: 39.50
+  Avg Value: 37.77
+
+==============================================
+
+==============================================
+ANALYSIS REPORT - Water Usage Meter
+Generated: 2026-01-29 03:31:04
+Log File: hospital_data/active_logs/water_usage.log
+==============================================
+
+Total Entries: 1429
+
+--- Device Statistics ---
+
+Device: Water_Consumption_Meter
+  Total Count: 1429
+  First Entry: 2026-01-29 03:07:14
+  Last Entry: 2026-01-29 03:31:03
+
+--- Value Statistics ---
+
+Device: Water_Consumption_Meter
+  Min Value: 1.00
+  Max Value: 10.00
+  Avg Value: 5.47
+
+==============================================
+
+==============================================
+ANALYSIS REPORT - Heart Rate Monitor
+Generated: 2026-01-29 03:44:46
+Log File: hospital_data/active_logs/heart_rate.log
+==============================================
+
+Total Entries: 4500
+
+--- Device Statistics ---
+
+Device: HeartRate_Monitor_B
+  Total Count: 2250
+  First Entry: 2026-01-29 03:07:14
+  Last Entry: 2026-01-29 03:44:45
+
+Device: HeartRate_Monitor_A
+  Total Count: 2250
+  First Entry: 2026-01-29 03:07:14
+  Last Entry: 2026-01-29 03:44:45
+
+--- Value Statistics ---
+
+Device: HeartRate_Monitor_A
+  Min Value: 60.00
+  Max Value: 100.00
+  Avg Value: 80.08
+
+Device: HeartRate_Monitor_B
+  Min Value: 60.00
+  Max Value: 100.00
+  Avg Value: 79.41
+
+==============================================
+
+==============================================
+ANALYSIS REPORT - Temperature Sensor
+Generated: 2026-01-29 03:44:54
+Log File: hospital_data/active_logs/temperature.log
+==============================================
+
+Total Entries: 4516
+
+--- Device Statistics ---
+
+Device: Temp_Recorder_B
+  Total Count: 2258
+  First Entry: 2026-01-29 03:07:14
+  Last Entry: 2026-01-29 03:44:53
+
+Device: Temp_Recorder_A
+  Total Count: 2258
+  First Entry: 2026-01-29 03:07:14
+  Last Entry: 2026-01-29 03:44:53
+
+--- Value Statistics ---
+
+Device: Temp_Recorder_A
+  Min Value: 36.00
+  Max Value: 39.50
+  Avg Value: 37.77
+
+Device: Temp_Recorder_B
+  Min Value: 36.00
+  Max Value: 39.50
+  Avg Value: 37.76
+
+==============================================
+
+==============================================
+ANALYSIS REPORT - Water Usage Meter
+Generated: 2026-01-29 03:44:58
+Log File: hospital_data/active_logs/water_usage.log
+==============================================
+
+Total Entries: 2262
+
+--- Device Statistics ---
+
+Device: Water_Consumption_Meter
+  Total Count: 2262
+  First Entry: 2026-01-29 03:07:14
+  Last Entry: 2026-01-29 03:44:57
+
+--- Value Statistics ---
+
+Device: Water_Consumption_Meter
+  Min Value: 1.00
+  Max Value: 10.00
+  Avg Value: 5.52
+
+==============================================
+
