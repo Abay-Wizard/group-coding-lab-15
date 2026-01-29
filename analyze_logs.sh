@@ -1,19 +1,13 @@
 #!/bin/bash
 
-# analyze_logs.sh - Intelligent log analysis script
-# Analyzes selected log files and generates reports
-
-# Directory configuration
 ACTIVE_LOGS_DIR="hospital_data/active_logs"
 REPORTS_DIR="hospital_data/reports"
 REPORT_FILE="${REPORTS_DIR}/analysis_report.txt"
 
-# Log file names
 HEART_LOG="heart_rate.log"
 TEMP_LOG="temperature.log"
 WATER_LOG="water_usage.log"
 
-# Function to display menu and get user choice
 display_menu() {
     echo "Select log file to analyze:"
     echo "1) Heart Rate (heart_rate.log)"
@@ -22,7 +16,6 @@ display_menu() {
     echo -n "Enter choice (1-3): "
 }
 
-# Function to ensure reports directory exists
 ensure_reports_dir() {
     if [ ! -d "$REPORTS_DIR" ]; then
         mkdir -p "$REPORTS_DIR"
@@ -33,20 +26,19 @@ ensure_reports_dir() {
     fi
 }
 
-# Function to analyze a log file
 analyze_log() {
     local log_file=$1
     local log_type=$2
     local source_path="${ACTIVE_LOGS_DIR}/${log_file}"
     
-    # Check if log file exists
+    
     if [ ! -f "$source_path" ]; then
         echo "Error: Log file '$source_path' does not exist."
         echo "Make sure the monitoring device is running and has generated logs."
         exit 1
     fi
     
-    # Check if log file is empty
+    
     if [ ! -s "$source_path" ]; then
         echo "Warning: Log file is empty. Nothing to analyze."
         exit 0
@@ -58,10 +50,10 @@ analyze_log() {
     echo "Analyzing ${log_file}..."
     echo ""
     
-    # Generate analysis timestamp
+    
     analysis_time=$(date +"%Y-%m-%d %H:%M:%S")
     
-    # Start building the report
+    
     {
         echo "=============================================="
         echo "ANALYSIS REPORT - ${log_type}"
@@ -75,12 +67,12 @@ analyze_log() {
         echo "Total Entries: ${total_entries}"
         echo ""
         
-        # Device occurrence count
+        
         echo "--- Device Statistics ---"
         echo ""
         
-        # Extract unique devices and count occurrences
-        # Log format: TIMESTAMP DEVICE VALUE
+        
+      
         awk '{print $3}' "$source_path" | sort | uniq -c | sort -rn | while read count device; do
             echo "Device: ${device}"
             echo "  Total Count: ${count}"
@@ -98,7 +90,7 @@ analyze_log() {
         echo "--- Value Statistics ---"
         echo ""
         
-        # Calculate min, max, and average values per device
+        
         awk '{
             device = $3
             value = $4
@@ -134,7 +126,7 @@ analyze_log() {
     awk '{print $3}' "$source_path" | sort | uniq -c | sort -rn
 }
 
-# Main script execution
+
 display_menu
 read choice
 
@@ -155,5 +147,4 @@ case $choice in
 esac
 
 exit 0
-
 
